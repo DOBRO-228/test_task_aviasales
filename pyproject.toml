@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test-task-aviasales"
+version = "0.1.0"
+description = "https://github.com/KosyanMedia/test-tasks/tree/master/gates_team"
+authors = ["Dobro228 <matematikaigor@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_task_aviasales"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+wemake-python-styleguide = "^0.17.0"
+isort = "^5.12.0"
+pytest = "^7.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

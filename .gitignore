@@ -1,0 +1,13 @@
+.venv/
+.vscode/
+dist/
+dist/*
+.pytest_cache
+debug.py
+.history/
+__pycache__/
+coverage.xml
+.coverage
+.venv
+.env
+.python-version
